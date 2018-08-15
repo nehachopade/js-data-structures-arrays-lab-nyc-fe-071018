@@ -34,5 +34,5 @@ function removeLastDriver()
 }
 function removeFirstDriver(someName)
 {
-  return drivers[0,drivers,length-1];
+  const newDrivers=drivers.
 }
