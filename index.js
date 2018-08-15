@@ -1,11 +1,11 @@
 // Write your solution here!
 const drivers=["Milo","Otis","Garfield"];
-function destructivelyAppendDriver(firstName){
+function destructivelyAppendDriver(someName){
   /*const newDrivers=drivers.slice()*/
-drivers.push(firstName)
+      drivers.push(someName);
 }
 
-function destructivelyPrependDriver(secondName)
+function destructivelyPrependDriver(someName)
 {
-  drivers.pop(secondName)
+      drivers.pop(someName);
 }
