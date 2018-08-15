@@ -25,5 +25,5 @@ function appendDriver(someName)
 }
 function prependDriver(someName)
 {
-  
+  newDrivers.unshift(someName)
 }
